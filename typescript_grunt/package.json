@@ -1,0 +1,20 @@
+{
+  "name": "typescript_grunt",
+  "version": "1.0.0",
+  "description": "Introduction to Grunt in TypeScript Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mparaf",
+  "license": "ISC",
+  "dependencies": {
+    "grunt-cli": "^1.4.3",
+    "grunt-ts": "^6.0.0-beta.22",
+    "save": "^2.9.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.6.1"
+  }
+}
