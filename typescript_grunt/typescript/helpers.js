@@ -1,11 +1,8 @@
+"use strict";
 var Helper;
 (function (Helper) {
-    var Languague = (function () {
-        function Languague() {
-        }
-        Languague.Greeting = "Bonjour";
-        return Languague;
-    }());
+    class Languague {
+    }
+    Languague.Greeting = "Bonjour";
     Helper.Languague = Languague;
 })(Helper || (Helper = {}));
-//# sourceMappingURL=helpers.js.map

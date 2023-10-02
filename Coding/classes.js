@@ -1,14 +1,14 @@
-var Stark = /** @class */ (function () {
-    function Stark() {
+"use strict";
+class Stark {
+    constructor() {
         this.name = "Brandon";
         this.saying = Stark.castle;
     }
-    Stark.prototype.hello = function (person) {
+    hello(person) {
         console.log("Hello, " + person);
-    };
-    Stark.castle = "Winterfell";
-    return Stark;
-}());
+    }
+}
+Stark.castle = "Winterfell";
 var ned = new Stark();
 ned.saying = "Winter is comming";
 var sansa = new Stark();
