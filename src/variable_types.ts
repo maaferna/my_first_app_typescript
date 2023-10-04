@@ -1,5 +1,5 @@
 // Read user input from the command line
-const userName: string = prompt("Ingrese su nombre:");
+const userName2: string = prompt("Ingrese su nombre:");
 const firstNumberStr: string = prompt("Ingrese un número:");
 const secondNumberStr: string = prompt("Ingrese un segundo número:");
 
@@ -16,16 +16,16 @@ if (!isNaN(firstNumber) && !isNaN(secondNumber)) {
 
   // Generate and display the result messages
   document.write(
-    `${userName}, el resultado de sumar ${firstNumber} y ${secondNumber} es ${sum}.<br>`
+    `${userName2}, el resultado de sumar ${firstNumber} y ${secondNumber} es ${sum}.<br>`
   );
   document.write(
-    `${userName}, el resultado de restar ${firstNumber} y ${secondNumber} es ${difference}.<br>`
+    `${userName2}, el resultado de restar ${firstNumber} y ${secondNumber} es ${difference}.<br>`
   );
   document.write(
-    `${userName}, el resultado de multiplicar ${firstNumber} y ${secondNumber} es ${product}.<br>`
+    `${userName2}, el resultado de multiplicar ${firstNumber} y ${secondNumber} es ${product}.<br>`
   );
   document.write(
-    `${userName}, el resultado de dividir ${firstNumber} y ${secondNumber} es ${division}.<br>`
+    `${userName2}, el resultado de dividir ${firstNumber} y ${secondNumber} es ${division}.<br>`
   );
 } else {
   document.write("Por favor, ingrese números válidos.");
