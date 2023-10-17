@@ -7,12 +7,12 @@ var firstNumber = parseFloat(firstNumberStr);
 var secondNumber = parseFloat(secondNumberStr);
 if (!isNaN(firstNumber) && !isNaN(secondNumber)) {
     // Perform arithmetic operations
-    var sum = firstNumber + secondNumber;
+    var sum_1 = firstNumber + secondNumber;
     var difference = firstNumber - secondNumber;
     var product = firstNumber * secondNumber;
     var division = firstNumber / secondNumber;
     // Generate and display the result messages
-    document.write("".concat(userName2, ", el resultado de sumar ").concat(firstNumber, " y ").concat(secondNumber, " es ").concat(sum, ".<br>"));
+    document.write("".concat(userName2, ", el resultado de sumar ").concat(firstNumber, " y ").concat(secondNumber, " es ").concat(sum_1, ".<br>"));
     document.write("".concat(userName2, ", el resultado de restar ").concat(firstNumber, " y ").concat(secondNumber, " es ").concat(difference, ".<br>"));
     document.write("".concat(userName2, ", el resultado de multiplicar ").concat(firstNumber, " y ").concat(secondNumber, " es ").concat(product, ".<br>"));
     document.write("".concat(userName2, ", el resultado de dividir ").concat(firstNumber, " y ").concat(secondNumber, " es ").concat(division, ".<br>"));
